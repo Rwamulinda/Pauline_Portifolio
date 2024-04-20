@@ -21,7 +21,7 @@ const App = () => {
       </div>
       {/* Render the Carousel component */}
       {/*<div className="App">
-        <h1>Simple React Carousel</h1>
+        <h1>Simple React Carousel</h1>g
         <Carousel images={images} />
   </div>*/}
     </Router>
