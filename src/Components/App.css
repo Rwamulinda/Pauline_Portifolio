@@ -1,0 +1,386 @@
+/* Navigation.css */
+.main-container {
+  width: 100%;
+ /* Make the container cover the entire viewport height */
+  background-size: cover;
+  background-position: center;
+  cursor: none;
+  background-color: white;
+}
+
+.navbar {
+  position: relative;
+  padding: 20px;
+}
+
+.nav-links {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: right; /* Align the navigation links to the right */
+}
+
+.nav-links li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links li a {
+  color:#1f1b1b;
+  text-decoration: none;
+  font-family: 'Cascadia Code SemiBold', sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+
+.resume-button {
+  background-color: #becedf; /* Blue color, you can change it as needed */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/*.resume-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+.portfolio-intro {
+  color: black; /* Set text color to white */
+  font-family: 'Cascadia Code SemiBold', sans-serif;
+  text-align: center;
+  margin-top: 20px;
+  margin-right: 550px;
+}
+
+.portfolio-project {
+  margin-bottom: 50px;
+ /* Adjust as needed */
+}
+
+
+
+.portfolio-intro h1 {
+  font-size: 50px;
+  color:orangered; /* Set the color to #FFE6E6 */
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 700px;
+}
+
+.portfolio-intro .intro-text {
+  margin-bottom: 20px;
+  color:#BFA181; /* Set the text color to #E1AFD1 */
+  font-size: 11px;
+  margin-top: 30px;
+}
+/* Inside your CSS file */
+.cursor-dot {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 9999;
+  pointer-events: none;
+}
+
+.cursor-outline {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(17, 15, 18, 0.5);
+  border-radius: 50%;
+  position: fixed;
+  z-index: 9999;
+  pointer-events:none;
+}
+.about-me{
+  color: #e25098; /* Set text color to white */
+  font-family: 'Cascadia Code SemiBold', sans-serif;
+  text-align: center;
+  margin-top: 200px;
+  background-color:A500A4;
+}
+.about-me h2{
+ color:black;
+ text-align:center;
+ font-family: 'Cascadia Code SemiBold', sans-serif;
+}
+
+.about-content{
+  display: flex;
+}
+.paragraph{
+  width: 50px;
+  
+}
+.paragraph p{
+  margin-bottom: 10px;
+}
+
+/* About.css */
+
+.about-container {
+  padding: 50px;
+  width: 100%;
+  height: 100vh; /* Make the container cover the entire viewport height */
+  background-size: cover;
+  background-position: center;
+  cursor: none;
+}
+
+.about-heading {
+  font-size: 24px;
+  font-weight: bold;
+  color: #e25098; /* Pink color */
+  margin-bottom: 20px;
+}
+
+.about-content {
+  font-size: 16px;
+  line-height: 1.6;
+  color: whitesmoke/* Dark gray color */
+}
+
+
+@media (max-width: 1024px) {
+  .about-container,
+  .main-container{ 
+  padding: 50px; }}
+  
+
+  .about-heading {
+    font-size: 20px;
+  }
+
+  .about-content {
+    font-size: 14px;
+  }
+  .profile-pic {
+  /* Makes the image circular */
+  width: 400px; /* Increase width for a larger image */
+  height: auto; /* Scale height proportionally */
+  margin-top: 30px; /* Adjust margin as needed */
+  margin-right: auto; /* Move the image to the right */
+  display: block; /* Ensure the image is displayed as a block element */
+  margin-left: 95px;
+  top:-270px;
+  position: relative;
+  border-radius: 400px;
+}
+
+  .portfolio-section {
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center; /* Center align the content */
+    background-color:  white;
+    display: flex;
+
+  }
+  
+  /*.portfolio-section h1 {
+    font-size: 1.5rem; /* Adjust font size as needed */
+    /*font-weight: bold; /* Make the title bold */
+    /*color:black; /* Set the title color */
+    /*margin-bottom:10px;
+    font-family: 'Cascadia Code SemiBold', sans-serif;
+  }*/
+  .portfolio-section p {
+    color: grey; /* Align the text to the left */
+    margin-right: 10px; /* Add left margin */
+    font-family: 'Cascadia Mono Light';
+    margin-top: 1px;
+  }
+
+  /*.about-intro {
+    padding: 20px; /* Add padding inside the box */
+   /* margin-left: auto; /* Move the box to the right */
+   /* margin-right: 10px; /* Add some space between the box and the right edge */
+   /* max-width: 600px; /* Set the maximum width of the box */
+    /*text-align: left; /* Align the text to the left within the box */
+    /*font-family: 'Cascadia Mono Light';
+    font-size: x-small;
+  }
+
+  .about-icon img {
+    margin-right: 100px; /* Add margin to the right of the image */
+    /*max-width: 200px;
+    height:auto ;
+  }*/
+
+  .me {
+    padding: 7px; /* Add padding inside the box */
+    margin-left: auto; /* Move the box to the right */
+    margin-right: 200px; /* Add some space between the box and the right edge */
+    max-width: 600px; /* Set the maximum width of the box */
+    text-align:left; /* Align the text to the left within the box */
+    font-family: 'Cascadia Mono Light';
+    font-size: x-small;
+    font-weight: bold;
+  }
+
+   .myIntro{
+    padding: 3px; /* Add padding inside the box */
+    margin-left: auto; /* Move the box to the right */
+    margin-right: -500px; /* Add some space between the box and the right edge */
+    max-width: 600px; /* Set the maximum width of the box */
+    text-align: left; /* Align the text to the left within the box */
+    font-family: 'Helvetica';
+    font-size: medium;
+    font-weight: bold;
+  }
+  .portfolio-section {
+   padding: 50px 0;
+}
+
+ .portfolio-project {
+  margin-bottom: 50px;
+  text-align: left;
+}
+
+ .portfolio-project h2 {
+  margin-bottom: 10px;
+}
+
+ .portfolio-project p {
+  margin-bottom: 20px;
+}
+
+ .view-project-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: bold; /* You can change this color */
+  color: black;
+  text-decoration:none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-left: 280px;
+}
+
+ .project-images {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+ .project-images img {
+  max-width: 800px;
+  height: auto;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box-shadow for each image */
+  border: 2px solid #ddd; /* Add border */
+  border-radius: 12px;
+}
+ .portfolio-title {
+  text-align: center;
+}
+
+.project-details {
+  display: flex;
+  align-items: flex-start; /* Align items vertically at the start */
+}
+
+.project-title {
+  flex: 1; /* Occupy remaining space */
+  /*padding-right: 100px;
+  margin-right: 50px;*/
+  position: relative;
+
+}
+
+.project-title h2{
+  margin-right: 50px;
+  text-decoration: dotted;
+}
+
+.project-description {
+  flex: 1; /* Occupy remaining space */
+  margin-top: 40px;
+}
+
+.view-project-container {
+  text-align: center;
+
+}
+.orange-dot {
+  width: 15px;
+  height: 15px;
+  background-color: orangered;
+  border-radius: 50%;
+  position: absolute;
+  top: 60%; /* Adjust as needed */
+  transform: translateY(-50%); /* Center vertically */
+  left: -20px;
+  margin-right: 40px;
+}
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 8px solid transparent;
+  border-bottom: 8px solid transparent;
+  border-left: 12px solid orangered; /* Adjust color as needed */
+  margin-left: 10px; /* Adjust spacing between text and arrow */
+}
+.animated-dot:hover {
+  background-color: green; /* Change to green when hovered over */
+}
+.me2 {
+  padding: 3px; /* Add padding inside the box */
+  margin-left: auto; /* Move the box to the right */
+  margin-right: 200px; /* Add some space between the box and the right edge */
+  max-width: 600px; /* Set the maximum width of the box */
+  text-align: left; /* Align the text to the left within the box */
+  font-family: 'Cascadia Mono Light';
+  font-size: x-small;
+  font-weight: bold;
+  color: #1f1b1b;
+  display: inline;
+}
+
+.me2 h1{
+  color: black;
+  font-size: large;
+  margin-left:'3px';
+  display:'inline';
+  margin-left: 80px;
+  margin-top: 50px;
+}
+.myIntroAbout{
+  padding: 3px; /* Add padding inside the box */
+  margin-left: auto; /* Move the box to the right */
+  margin-right: 200px; /* Add some space between the box and the right edge */
+  max-width: 600px; /* Set the maximum width of the box */
+  text-align: left; /* Align the text to the left within the box */
+  font-family: 'helvetica';
+  font-size: medium;
+  font-weight: lighter;
+}
+.skills-container {
+  display: flex; /* Use flexbox for horizontal arrangement */
+}
+
+.skills-column {
+  flex: 1; /* Ensure each column takes up equal width */
+  margin-right: 70px; /* Add margin between columns as needed */
+}
+
+.skill {
+  margin-bottom: 10px; /* Add spacing between skills as needed */
+}
+
+.skill-title {
+  font-weight: bold; /* Make titles bold */
+  margin-top: 90px;
+  margin-bottom: 20px;
+}
+
+.active {
+  color: red; /* Change the color as desired */
+}
