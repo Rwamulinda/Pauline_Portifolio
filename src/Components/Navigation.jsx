@@ -3,8 +3,8 @@ import React, { useEffect,useState } from 'react';
 import { Link } from 'react-router-dom';
 import './App.css'; // Import the main CSS file
 //import backgroundImage from './Image/back.jpg'; // Import the background imag
-import 'slick-carousel/slick/slick.css';
-import 'slick-carousel/slick/slick-theme.css';
+//import 'slick-carousel/slick/slick.css';
+//import 'slick-carousel/slick/slick-theme.css';
 
 const Navigation = () => {
 
