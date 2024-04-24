@@ -184,7 +184,7 @@ const Navigation = () => {
           </div>
           <div className="view-project-container">
             {/* Add your link for the second project */}
-            <a href="" className="view-project-button">View Project
+            <a href="https://github.com/Rwamulinda/AddressBookIonic" className="view-project-button">View Project
             <span className="arrow"></span>
           </a>
           </div>
@@ -205,7 +205,8 @@ const Navigation = () => {
           </div>
           <div className="view-project-container">
             {/* Add your link for the second project */}
-            <a href="" className="view-project-button">View Project
+            <a href="https://drive.google.com/file/d/1tK7Bthd07jkWPC_VX-j8DIeC4-
+2xjy8R/view?usp=sharing" className="view-project-button">View Project
             <span className="arrow"></span>
           </a>
           </div>
@@ -226,7 +227,7 @@ const Navigation = () => {
           </div>
           <div className="view-project-container">
             {/* Add your link for the second project */}
-            <a href="" className="view-project-button">View Project
+            <a href="https://www.figma.com/files/recents-and-sharing/recently-viewed?fuid=1021527795505479295" className="view-project-button">View Project
             <span className="arrow"></span>
           </a>
           </div>
